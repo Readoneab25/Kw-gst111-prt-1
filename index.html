@@ -41,7 +41,7 @@
     <header>
       <div>
         <h1>GST 111 Interactive MCQ Quiz </h1>
-        <div class="meta">15 multiple-choice questions </div>
+        <div class="meta">45 multiple-choice questions </div>
       </div>
     </header><div class="card" id="quiz-card">
   <div class="progress" aria-hidden><i id="progress-bar"></i></div>
@@ -108,6 +108,156 @@
 
 const QUESTIONS = [
   // ... previous questions ...
+  {
+    q: "What is the specific brain region responsible for precisely coordinating the lips, jaw, tongue, and larynx for speech?",
+    c: ["Cerebellum", "Ventral sensorimotor cortex (vSMC)", "Prefrontal cortex", "Occipital lobe"],
+    a: 1
+  },
+  {
+    q: "How many muscles are estimated to be involved in the complex motor act of speech production?",
+    c: ["50", "100", "200", "500"],
+    a: 1
+  },
+  {
+    q: "According to Bock (1995), speech production is a cognitive process that goes from:",
+    c: ["Mouth to mind", "Lungs to larynx", "Mind to mouth", "Ear to brain"],
+    a: 2
+  },
+  {
+    q: "Which process of speech making involves the expulsion of air from the lungs?",
+    c: ["Phonation", "Articulation", "Initiation", "Oro-nasal process"],
+    a: 2
+  },
+  {
+    q: "English speech sounds are typically produced by which air stream mechanism?",
+    c: ["Pulmonic ingressive", "Velaric egressive", "Pulmonic egressive", "Glottalic ingressive"],
+    a: 2
+  },
+  {
+    q: "The gap between the vocal folds in the larynx is technically known as the:",
+    c: ["Epiglottis", "Trachea", "Glottis", "Pharynx"],
+    a: 2
+  },
+  {
+    q: "Which branch of phonetics focuses on the study of how speech sounds are produced by the vocal organs?",
+    c: ["Acoustic phonetics", "Articulatory phonetics", "Auditory phonetics", "Experimental phonetics"],
+    a: 1
+  },
+  {
+    q: "Which branch of phonetics studies the physics of speech sounds, such as frequency and amplitude?",
+    c: ["Auditory phonetics", "Articulatory phonetics", "Acoustic phonetics", "Perceptual phonetics"],
+    a: 2
+  },
+  {
+    q: "The study of how humans perceive and hear sounds is known as:",
+    c: ["Acoustic phonetics", "Auditory phonetics", "Articulatory phonetics", "Segmental phonetics"],
+    a: 1
+  },
+  {
+    q: "What is the term for the physical organs (like the lips and tongue) used to produce speech sounds?",
+    c: ["Phonemes", "Articulators", "Allophones", "Morphemes"],
+    a: 1
+  },
+  {
+    q: "Which organ is described as bladder-like, spongy, and located on both sides of the chest?",
+    c: ["Larynx", "Pharynx", "Lungs", "Trachea"],
+    a: 2
+  },
+  {
+    q: "The passage above the larynx where air passes during speech production is called the:",
+    c: ["Vocal tract", "Alveolar ridge", "Bronchus", "Glottis"],
+    a: 0
+  },
+  {
+    q: "The study of the system of contrastive relationships among speech sounds in a language is called:",
+    c: ["Phonetics", "Phonology", "Morphology", "Syntax"],
+    a: 1
+  },
+  {
+    q: "What is the term for the smallest meaningfully different sound units in a language?",
+    c: ["Allophones", "Phonemes", "Syllables", "Morphemes"],
+    a: 1
+  },
+  {
+    q: "Two words that differ by only a single phoneme (e.g., 'pat' and 'bat') are called a:",
+    c: ["Minimal pair", "Allophone set", "Consonant cluster", "Diphthong"],
+    a: 0
+  },
+  {
+    q: "Variants of the same phoneme that change based on their environment are called:",
+    c: ["Phones", "Allophones", "Syllables", "Prosody"],
+    a: 1
+  },
+  {
+    q: "Which branch of phonology is concerned with individual phonemes and their distribution?",
+    c: ["Suprasegmental phonology", "Segmental phonology", "Acoustic phonology", "Historical phonology"],
+    a: 1
+  },
+  {
+    q: "Prosody is another term for which branch of phonology?",
+    c: ["Segmental phonology", "Suprasegmental phonology", "Articulatory phonology", "Auditory phonology"],
+    a: 1
+  },
+  {
+    q: "The perceived frequency of a sound used to convey meaning is called:",
+    c: ["Stress", "Rhythm", "Pitch", "Volume"],
+    a: 2
+  },
+  {
+    q: "Which suprasegmental feature refers to the emphasis placed on a particular syllable or word?",
+    c: ["Intonation", "Pitch", "Stress", "Rhythm"],
+    a: 2
+  },
+  {
+    q: "A rising intonation in English is commonly found in which type of communication?",
+    c: ["Statements", "Commands", "Yes/No questions", "Finality"],
+    a: 2
+  },
+  {
+    q: "Which tone features a decrease in pitch followed by an increase, often indicating uncertainty?",
+    c: ["Falling Tune", "Rising Tune", "Fall-Rise", "Rise-Fall"],
+    a: 2
+  },
+  {
+    q: "Consonant sounds produced when the upper and lower lips come in contact (e.g., /m/) are:",
+    c: ["Dental", "Labio-dental", "Bilabial", "Alveolar"],
+    a: 2
+  },
+  {
+    q: "Sounds produced when the lower lip and upper teeth come in contact (e.g., /f/, /v/) are:",
+    c: ["Bilabial", "Labio-dental", "Palatal", "Velar"],
+    a: 1
+  },
+  {
+    q: "Which category of consonants is produced by the tongue touching the alveolar ridge?",
+    c: ["Palatal", "Glottal", "Alveolar", "Velar"],
+    a: 2
+  },
+  {
+    q: "The 'soft palate' is also known by what technical name?",
+    c: ["Alveolar ridge", "Hard palate", "Velum", "Glottis"],
+    a: 2
+  },
+  {
+    q: "A sound produced by air being totally blocked and then suddenly released is a:",
+    c: ["Fricative", "Nasal", "Plosive", "Lateral"],
+    a: 2
+  },
+  {
+    q: "What manner of articulation involves air escaping through the nose?",
+    c: ["Oral", "Nasal", "Fricative", "Affricate"],
+    a: 1
+  },
+  {
+    q: "Which manner of articulation is a combination of a plosive and a fricative?",
+    c: ["Lateral", "Approximant", "Affricate", "Nasal"],
+    a: 2
+  },
+  {
+    q: "The pattern of stressed and unstressed syllables in speech is known as:",
+    c: ["Intonation", "Pitch", "Rhythm", "Tone"],
+    a: 2
+  },
   {
     q: "Which branch of phonetics is concerned with how speech sounds are produced by the vocal organs?",
     c: ["Acoustic phonetics", "Articulatory phonetics", "Auditory phonetics", "Experimental phonetics"],
